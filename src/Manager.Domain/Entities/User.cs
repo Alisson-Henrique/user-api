@@ -1,6 +1,8 @@
-namespace User.Domain.Entities{
+using System;
+using System.Collections.Generic;
+using Manager.Domain.Validators;
 
-
+namespace Manager.Domain.Entities{
     public class User : Base{
        
         public string Username{ get; private set; }  
@@ -14,6 +16,7 @@ namespace User.Domain.Entities{
             Username = username;
             Email = email;
             Password = password;
+            _errors = new List<string>();
         }
 
         public void ChangeName(string username){
@@ -28,7 +31,22 @@ namespace User.Domain.Entities{
             Password = password;
             Validate(); 
         }
-        
+
+
+        public override bool Validate()
+        {
+            var validator = new UserValidator();
+            var validation = validator.Validate(this);
+
+            if(!validation.isValid){
+                foreach(var erro in validation.Errors)
+                    _errors.Add(erro.ErrorMessage);
+
+                throw new Exception("Erro: " + _errors[0]);
+            }
+
+            return true;
+        }
     }
 
 }

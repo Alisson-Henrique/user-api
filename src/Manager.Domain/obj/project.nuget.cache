@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U8U0h48zraRbUO7NMM7NdOLahK8dqBFqksVXY0T8KvfuZN39aWTV70ptlUYlANO+eRyc/D2iA59PnQlqKtnEvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\User.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\torga\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
