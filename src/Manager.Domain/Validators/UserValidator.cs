@@ -1,4 +1,5 @@
 using FluentValidation;
+using Manager.Domain.Entities;
 
 namespace Manager.Domain.Validators{
 

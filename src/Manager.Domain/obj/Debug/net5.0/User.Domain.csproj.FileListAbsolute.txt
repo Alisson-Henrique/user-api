@@ -8,3 +8,10 @@ C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\obj\Debug\net5.0\User.Domain.AssemblyInfoInputs.cache
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\obj\Debug\net5.0\User.Domain.AssemblyInfo.cs
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\obj\Debug\net5.0\User.Domain.csproj.CoreCompileInputs.cache
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\bin\Debug\net5.0\User.Domain.deps.json
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\bin\Debug\net5.0\User.Domain.dll
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\bin\Debug\net5.0\ref\User.Domain.dll
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\bin\Debug\net5.0\User.Domain.pdb
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\obj\Debug\net5.0\User.Domain.dll
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\obj\Debug\net5.0\ref\User.Domain.dll
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Domain\obj\Debug\net5.0\User.Domain.pdb
