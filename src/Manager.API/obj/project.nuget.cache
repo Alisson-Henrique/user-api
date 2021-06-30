@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PFCaEMNrgGc6qy0lbpO1luj52o+sqmTZwxjrj7Q7epgY8tVJK0mMpaZLPt5GyKI6vluGZ7yIAC0eVsF3J0IpYg==",
+  "dgSpecHash": "nduCQrA7CDZXKmkWKgeBfErGmxaYBiB3gSojaJuWrvMOcR8MmVCrKys+Jia66hF8GKaWI3md3UjysKgK5AIhHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.API\\User.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\torga\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\torga\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\torga\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\torga\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",

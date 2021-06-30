@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\User.Services\\User.Services.csproj": {}
+    "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\User.Services\\User.Services.csproj": {
+    "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\User.Services\\User.Services.csproj",
+        "projectUniqueName": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj",
         "projectName": "User.Services",
-        "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\User.Services\\User.Services.csproj",
+        "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj",
         "packagesPath": "C:\\Users\\torga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\User.Services\\obj\\",
+        "outputPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\torga\\AppData\\Roaming\\NuGet\\NuGet.Config",

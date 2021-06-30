@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "FluentValidation/10.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -75,10 +84,71 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "User.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/User.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.Core.dll": {}
+        }
+      },
+      "User.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "fluentvalidation": "10.2.3"
+        },
+        "compile": {
+          "bin/placeholder/User.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.Domain.dll": {}
+        }
+      },
+      "User.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/User.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.Infra.dll": {}
+        }
+      },
+      "User.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/User.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.Services.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "FluentValidation/10.2.3": {
+      "sha512": "R2w/E6jgg9RPSlg7JQSTHg6AWDwlOXARaV4ZUKrPJ1gi1e+oaBEcomxmo29j9BLZivkyQhOpAboJ9nKZS4/xYA==",
+      "type": "package",
+      "path": "fluentvalidation/10.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.2.3.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -185,11 +255,35 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "User.Core/1.0.0": {
+      "type": "project",
+      "path": "../Manager.Core/User.Core.csproj",
+      "msbuildProject": "../Manager.Core/User.Core.csproj"
+    },
+    "User.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Manager.Domain/User.Domain.csproj",
+      "msbuildProject": "../Manager.Domain/User.Domain.csproj"
+    },
+    "User.Infra/1.0.0": {
+      "type": "project",
+      "path": "../Manager.Infra/User.Infra.csproj",
+      "msbuildProject": "../Manager.Infra/User.Infra.csproj"
+    },
+    "User.Services/1.0.0": {
+      "type": "project",
+      "path": "../Manager.Services/User.Services.csproj",
+      "msbuildProject": "../Manager.Services/User.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Swashbuckle.AspNetCore >= 5.6.3"
+      "Swashbuckle.AspNetCore >= 5.6.3",
+      "User.Core >= 1.0.0",
+      "User.Domain >= 1.0.0",
+      "User.Infra >= 1.0.0",
+      "User.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -218,7 +312,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Core\\User.Core.csproj": {
+              "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Core\\User.Core.csproj"
+            },
+            "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\User.Domain.csproj": {
+              "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\User.Domain.csproj"
+            },
+            "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Infra\\User.Infra.csproj": {
+              "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Infra\\User.Infra.csproj"
+            },
+            "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj": {
+              "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
