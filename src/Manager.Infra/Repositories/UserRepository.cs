@@ -41,5 +41,14 @@ namespace Manager.Infra.Repositories{
 
             return allUsers;
         }
+
+        public async Task<List<User>> SearchByEmail(string username){
+
+            var allUsers = await _context.Users.Where(x => x.Name.ToLower().Contains(nameof.ToLower()))
+                                            .AsNoTracking()
+                                            .ToListAsync();
+
+            return allUsers;
+        }
     }
 }
