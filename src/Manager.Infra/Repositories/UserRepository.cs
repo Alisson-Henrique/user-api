@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Manager.Domain.Entities;
 using Manager.Infra.Context;
 using Manager.Infra.Interfaces;
+using Manager.Infra.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Manager.Infra.Repositories{
@@ -33,18 +34,18 @@ namespace Manager.Infra.Repositories{
             return user.FirstOrDefault();
         }
 
-        public async Task<List<User>> SearchByUsername(string name)
+        public async Task<List<User>> SearchByUsername(string username)
         {
-            var allUsers = await _context.Users.Where(x =>x.Name.ToLower().Contains(name.ToLower()))
+            var allUsers = await _context.Users.Where(x =>x.Username.ToLower().Contains(username.ToLower()))
                                                 .AsNoTracking()
                                                 .ToListAsync();
 
             return allUsers;
         }
 
-        public async Task<List<User>> SearchByEmail(string username){
+        public async Task<List<User>> SearchByEmail(string email){
 
-            var allUsers = await _context.Users.Where(x => x.Name.ToLower().Contains(nameof.ToLower()))
+            var allUsers = await _context.Users.Where(x => x.Email.ToLower().Contains(email.ToLower()))
                                             .AsNoTracking()
                                             .ToListAsync();
 

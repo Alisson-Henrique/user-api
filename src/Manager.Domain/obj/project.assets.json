@@ -35,7 +35,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "fluentvalidation >= 10.2.3"
+      "FluentValidation >= 10.2.3"
     ]
   },
   "packageFolders": {
@@ -44,9 +44,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\User.Domain.csproj",
-      "projectName": "User.Domain",
-      "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\User.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\Manager.Domain.csproj",
+      "projectName": "Manager.Domain",
+      "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\Manager.Domain.csproj",
       "packagesPath": "C:\\Users\\torga\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Domain\\obj\\",
       "projectStyle": "PackageReference",
@@ -77,7 +77,7 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "fluentvalidation": {
+          "FluentValidation": {
             "target": "Package",
             "version": "[10.2.3, )"
           }

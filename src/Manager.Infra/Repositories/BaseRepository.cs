@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using Manager.Domain.Entities;
@@ -26,7 +27,7 @@ namespace Manager.Infra.Repository{
             return obj;
         }
 
-        public virtual async Task<T> Update(T obj){
+        public virtual async Task Update(T obj){
             _context.Entry(obj).State = EntityState.Modified;
 
             await _context.SaveChangesAsync();
@@ -35,9 +36,10 @@ namespace Manager.Infra.Repository{
         public virtual async Task Remove(long id){
             var obj = await Get(id);
 
-            if(obj != null){
-                _context.Remove();
-                _context.SaveChangesAsync();
+            if(obj != null)
+            {
+                _context.Remove(id);
+                await _context.SaveChangesAsync();
 
             }
         }
@@ -50,6 +52,11 @@ namespace Manager.Infra.Repository{
             
             return obj.FirstOrDefault();
 
+        }
+
+        public Task<List<T>> GetAll()
+        {
+            throw new System.NotImplementedException();
         }
 
         public virtual async Task<List<T>> GetTask(){

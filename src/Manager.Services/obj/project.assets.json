@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj",
-      "projectName": "User.Services",
-      "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj",
+      "projectUniqueName": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\Manager.Services.csproj",
+      "projectName": "Manager.Services",
+      "projectPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\Manager.Services.csproj",
       "packagesPath": "C:\\Users\\torga\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\obj\\",
       "projectStyle": "PackageReference",

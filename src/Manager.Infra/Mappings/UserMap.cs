@@ -1,3 +1,7 @@
+using Manager.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 namespace Manager.Infra.Mappings{
 
     public class UserMap : IEntityTypeConfiguration<User>{
@@ -10,19 +14,19 @@ namespace Manager.Infra.Mappings{
             
 
             builder.Property(x => x.Username)
-                        .isRequired()
+                        .IsRequired()
                         .HasMaxLength(80)
                         .HasColumnName("username")
                         .HasColumnType("VARCHAR(80)"); 
 
              builder.Property(x => x.Email)
-                        .isRequired()
+                        .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnName("email")
                         .HasColumnType("VARCHAR(50)"); 
                         
              builder.Property(x => x.Password)
-                        .isRequired()
+                        .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnName("password")
                         .HasColumnType("VARCHAR(30)");         

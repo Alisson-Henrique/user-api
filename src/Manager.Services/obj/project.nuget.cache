@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FkKqK7FAJX+bzwDY/6m6aZWdAAkdKAp7eSZYzXS5aQxNZrgq2OFWcOvRWgZyH6ZbXZE83GyjHGYtdkwSCOpf2A==",
+  "dgSpecHash": "uBPtpFzCh2RnH0SHPjoXKtjuYMoICsj/v8deGHcaLVMOHGCFyyXstJ5gw9YMFp2Rw+ucrtw9wESCOEiUY7DfvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\User.Services.csproj",
+  "projectFilePath": "C:\\Users\\torga\\Desktop\\Arquivos-C\\Projetos\\user-api\\user-api\\src\\Manager.Services\\Manager.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
