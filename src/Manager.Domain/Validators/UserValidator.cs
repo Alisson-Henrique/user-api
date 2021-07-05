@@ -41,7 +41,7 @@ namespace Manager.Domain.Validators{
             .MinimumLength(10)
             .WithMessage("Email deve ter no minimo 10 caracters.")
 
-            .MaximumLength(1056)
+            .MaximumLength(50)
             .WithMessage("Email deve ter no máximo 50 letras.")
 
             .Matches(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$")
