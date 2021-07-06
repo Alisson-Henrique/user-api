@@ -10,5 +10,6 @@ namespace Manager.Infra.Interfaces{
         Task<User> GetByUsername(string username);
 
         Task<List<User>> SearchByUsername(string username);
+        Task<List<User>> SearchByEmail(string username);
     }
 }

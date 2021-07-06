@@ -27,10 +27,12 @@ namespace Manager.Infra.Repository{
             return obj;
         }
 
-        public virtual async Task Update(T obj){
+        public virtual async Task<T> Update(T obj){
             _context.Entry(obj).State = EntityState.Modified;
 
             await _context.SaveChangesAsync();
+            
+            return obj;
         }
 
         public virtual async Task Remove(long id){
@@ -53,13 +55,7 @@ namespace Manager.Infra.Repository{
             return obj.FirstOrDefault();
 
         }
-
-        public Task<List<T>> GetAll()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public virtual async Task<List<T>> GetTask(){
+        public virtual async Task<List<T>> GetAll(){
             return await _context.Set<T>()
                                  .AsNoTracking()
                                  .ToListAsync();

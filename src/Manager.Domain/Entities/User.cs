@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using Manager.Core.Exceptions;
 using Manager.Domain.Validators;
+
 
 namespace Manager.Domain.Entities{
     public class User : Base{
@@ -17,6 +19,7 @@ namespace Manager.Domain.Entities{
             Email = email;
             Password = password;
             _errors = new List<string>();
+            Validate();
         }
 
         public void ChangeName(string username){
@@ -42,7 +45,7 @@ namespace Manager.Domain.Entities{
                 foreach(var erro in validation.Errors)
                     _errors.Add(erro.ErrorMessage);
 
-                throw new Exception("Erro: " + _errors[0]);
+                throw new DomainException("Erro", _errors);
             }
 
             return true;
