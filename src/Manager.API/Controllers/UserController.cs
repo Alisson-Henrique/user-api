@@ -14,9 +14,17 @@ namespace Manager.API.Controllers{
     [ApiController]
     public class UserController : ControllerBase
     {
+        
         private readonly IMapper _mapper;
         
         private readonly IUserService _userService;
+        
+        public UserController(IMapper mapper, IUserService userService)
+        {
+            _mapper = mapper;
+            _userService = userService;
+        }
+
         
         [HttpPost]
         [Route("/api/v1/users/create")]

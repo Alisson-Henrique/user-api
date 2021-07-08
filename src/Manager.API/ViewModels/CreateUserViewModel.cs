@@ -8,8 +8,8 @@ namespace Manager.API.ViewModels{
         [Required(ErrorMessage = "O nome não pode ser vazio.")]
         [MinLength(3, ErrorMessage = "Username deve ter no minimo 3 letras")]
         [MaxLength(80, ErrorMessage = "Username deve ter no máximo 1056 caracteres.")]
-
         public string Username{ get; set; }  
+        
         [Required(ErrorMessage = "Email não pode estar vazio.")]
         [MinLength(10,ErrorMessage = "Email deve ter no minimo 10 caracters.")]
         [MaxLength(50,ErrorMessage = "Email deve ter no máximo 50 letras.")]

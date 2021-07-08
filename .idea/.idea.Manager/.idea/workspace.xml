@@ -5,128 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb719cfc-eea6-4045-983b-6645038f7622" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/Utilities/Responses.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/ViewModels/ResultViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/.vs/Manager.API/v16/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/AutoMapper.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/FluentValidation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Infra.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Infra.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Services.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.Services.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.Options.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Microsoft.OpenApi.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Npgsql.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/System.Collections.Immutable.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/ref/Manager.API.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.RazorTargetAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/ref/Manager.API.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/staticwebassets/Manager.API.StaticWebAssets.Manifest.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/staticwebassets/Manager.API.StaticWebAssets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/bin/Debug/net5.0/Manager.Core.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/bin/Debug/net5.0/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/bin/Debug/net5.0/Manager.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/bin/Debug/net5.0/ref/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/obj/Debug/net5.0/Manager.Core.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/obj/Debug/net5.0/Manager.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/obj/Debug/net5.0/Manager.Core.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/obj/Debug/net5.0/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/obj/Debug/net5.0/Manager.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Core/obj/Debug/net5.0/ref/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Core.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Infra.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Infra.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Services.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Services.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/Manager.Services.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/bin/Debug/net5.0/ref/Manager.Services.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/Manager.Services.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/Manager.Services.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/Manager.Services.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/Manager.Services.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/Manager.Services.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/ref/Manager.Services.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Manager/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager.API/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/Manager.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/Manager.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/ViewModels/CreateUserViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/ViewModels/CreateUserViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/Manager.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/ref/Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/bin/Debug/net5.0/ref/Manager.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/Manager.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/Manager.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Domain.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/bin/Debug/net5.0/Manager.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Domain/obj/Debug/net5.0/Manager.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/Context/ManagerContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/Context/ManagerContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Infra.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Infra.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Infra.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/Manager.Infra.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/ref/Manager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/bin/Debug/net5.0/ref/Manager.Infra.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/Manager.Infra.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/ref/Manager.Infra.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Infra/obj/Debug/net5.0/ref/Manager.Infra.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Services/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Services/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/Manager.Services.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.Services/obj/Debug/net5.0/Manager.Services.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/Manager.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/ref/Manager.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.API/obj/Debug/net5.0/ref/Manager.API.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,11 +46,12 @@
       <option value="$PROJECT_DIR$/src/Manager.Services/Interfaces/IUserService.cs" />
       <option value="$PROJECT_DIR$/src/Manager.API/ViewModels/ResultViewModel.cs" />
       <option value="$PROJECT_DIR$/src/Manager.API/Utilities/Responses.cs" />
-      <option value="$PROJECT_DIR$/src/Manager.API/Controllers/UserController.cs" />
-      <option value="$PROJECT_DIR$/src/Manager.API/Startup.cs" />
-      <option value="$PROJECT_DIR$/src/Manager.API/appsettings.json" />
       <option value="$PROJECT_DIR$/src/Manager.Infra/Context/ManagerContext.cs" />
       <option value="$PROJECT_DIR$/src/Manager.Services/Services/UserService.cs" />
+      <option value="$PROJECT_DIR$/src/Manager.API/ViewModels/CreateUserViewModel.cs" />
+      <option value="$PROJECT_DIR$/src/Manager.API/Controllers/UserController.cs" />
+      <option value="$PROJECT_DIR$/src/Manager.API/appsettings.json" />
+      <option value="$PROJECT_DIR$/src/Manager.API/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uujfD8X3Fmr4XiURjEDP3Y7FwF" />
@@ -174,6 +65,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498452" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -227,7 +120,8 @@
       <workItem from="1625524717079" duration="1897000" />
       <workItem from="1625568534208" duration="9186000" />
       <workItem from="1625663616138" duration="2689000" />
-      <workItem from="1625707126086" duration="4053000" />
+      <workItem from="1625707126086" duration="4116000" />
+      <workItem from="1625712790180" duration="3402000" />
     </task>
     <servers />
   </component>
