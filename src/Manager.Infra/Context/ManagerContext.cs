@@ -14,12 +14,6 @@ namespace Manager.Infra.Context{
         public ManagerContext(DbContextOptions<ManagerContext> options) : base(options)
         {
         }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseNpgsql("User ID=postgres;Password=postgres;Host=localhost;Port=5432;Database=user_api;");
-
-        }
         
         public virtual DbSet<User> Users { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)

@@ -4,8 +4,10 @@ C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\b
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\bin\Debug\net5.0\Manager.Infra.dll
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\bin\Debug\net5.0\ref\Manager.Infra.dll
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\bin\Debug\net5.0\Manager.Infra.pdb
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\bin\Debug\net5.0\Manager.Core.dll
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\bin\Debug\net5.0\Manager.Domain.dll
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\bin\Debug\net5.0\Manager.Core.pdb
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.AssemblyReference.cache
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\torga\Desktop\Arquivos-C\Projetos\user-api\user-api\src\Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfoInputs.cache
