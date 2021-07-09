@@ -39,7 +39,7 @@ namespace Manager.API
 
             services.AddControllers();
 
-            #region DP
+            #region DI
 
             services.AddSingleton(d => Configuration);
             services.AddDbContext<ManagerContext>(options => options.UseNpgsql(Configuration["ConnectionStrings:USER_API"]), ServiceLifetime.Transient);

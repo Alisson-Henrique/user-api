@@ -15,7 +15,8 @@ namespace Manager.Infra.Repository{
         
         private readonly ManagerContext _context;
 
-        public BaseRepository(ManagerContext context){
+        public BaseRepository(ManagerContext context)
+        {
             _context = context;
         }
 
