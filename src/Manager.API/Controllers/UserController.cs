@@ -5,6 +5,7 @@ using Manager.API.Utilities;
 using Microsoft.AspNetCore.Mvc;
 using Manager.API.ViewModels;
 using Manager.Core.Exceptions;
+using Manager.Domain.Entities;
 using Manager.Services.DTO;
 using Manager.Services.Interfaces;
 
@@ -28,8 +29,8 @@ namespace Manager.API.Controllers{
         
         [HttpPost]
         [Route("/api/v1/users/create")]
-        public async Task<IActionResult> Create([FromBody] CreateUserViewModel userViewModel){
-
+        public async Task<IActionResult> Create([FromBody] CreateUserViewModel userViewModel)
+        {
             try
             {
                 var userDTO = _mapper.Map<UserDTO>(userViewModel);
@@ -42,7 +43,6 @@ namespace Manager.API.Controllers{
             }
             catch (Exception)
             {
-                
                 return StatusCode(500,Responses.ApplicationErrorMessage());
             }
         }
@@ -61,15 +61,15 @@ namespace Manager.API.Controllers{
             {
                 return BadRequest(Responses.DomainErrorMessage(exception.Message,exception.Errors));
             }
-            catch (Exception exception)
+            catch (Exception)
             {
-                return StatusCode(500, exception.Message);
+                return StatusCode(500, Responses.ApplicationErrorMessage());
             }
             
         }
 
         [HttpGet]
-        [Route("/api/v1/get/{id}")]
+        [Route("/api/v1/users/get/{id}")]
         public async Task<IActionResult> Get(long id)
         {
             try
@@ -87,15 +87,55 @@ namespace Manager.API.Controllers{
             {
                 return BadRequest(Responses.DomainErrorMessage(exception.Message,exception.Errors));
             }
-            catch (Exception e)
+            catch (Exception)
+            {
+                return StatusCode(500, Responses.ApplicationErrorMessage());
+            }
+        }
+
+        [HttpGet]
+        [Route("/api/v1/users/get-all")]
+        public async Task<IActionResult> GetAll()
+        {
+            try
+            {
+                var usersDtos = await _userService.GetAll();
+
+                return Ok(new ResultViewModel
+                    {
+                        Message = "Todos os usuarios trazidos com sucesso.", 
+                        Success = true, 
+                        Data = usersDtos
+                    });
+            }
+            catch (Exception)
             {
                 return StatusCode(500, Responses.ApplicationErrorMessage());
             }
             
-            
         }
+
+        [HttpGet]
+        [Route("/api/v1/users/search-by-username/{username}")]
+        public async Task<IActionResult> SearchByUsername(string username)
+        {
+            try
+            {
+                var user = await _userService.SearchByUsername(username);
+                return Ok(new ResultViewModel{Message = "Usuario encontrado!",Success = true,Data = user});
+            }
+            catch (DomainException)
+            {
+                return Ok(new ResultViewModel {Message = "Não tem um usuário com esse nome.",Success = true,Data = null});
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, Responses.ApplicationErrorMessage());
+            }
+        }
+        
         [HttpDelete]
-        [Route("/api/user/remove/{id}")]
+        [Route("/api/v1/users/remove/{id}")]
         public async Task<IActionResult> Remove(long id)
         {
             try
@@ -109,8 +149,10 @@ namespace Manager.API.Controllers{
             }
             catch (Exception e)
             {
-                return StatusCode(500,Responses.ApplicationErrorMessage());
+                return StatusCode(500,e.Message);
             }
         }
+        
+   
     }
 }

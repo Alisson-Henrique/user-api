@@ -7,7 +7,7 @@ using Manager.Infra.Interfaces;
 using Manager.Infra.Context;
 
 
-namespace Manager.Infra.Repository{
+namespace Manager.Infra.Repositories{
 
 
     public class BaseRepository<T> : IBaseRepository<T> where T : Base
@@ -41,7 +41,7 @@ namespace Manager.Infra.Repository{
 
             if(obj != null)
             {
-                _context.Remove(id);
+                _context.Remove(obj);
                 await _context.SaveChangesAsync();
 
             }
